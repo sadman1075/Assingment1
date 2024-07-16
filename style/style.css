@@ -1,8 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-nav {
+nav div {
     background: url("../assets/Hero-bg.png");
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px 40px 150px;
+    align-items: center;
+}
+
+.header_info {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn_resume {
+    padding: 17px 24px 17px 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .img {
@@ -95,7 +123,7 @@ nav {
 }
 
 .section1 {
-    margin: 154px 296px 88px 293px;
+    margin: 154px 150px 88px 150px;
 
 }
 
@@ -128,7 +156,7 @@ nav {
 }
 
 .section2 {
-    margin: 154px 296px 88px 293px;
+    margin: 154px 150px 88px 150px;
 
 }
 
@@ -161,12 +189,12 @@ nav {
 }
 
 .section3 {
-    margin: 154px 296px 88px 293px;
+    margin: 154px 150px 88px 150px;
 
 }
 
 .section4 {
-    margin: 154px 296px 88px 293px;
+    margin: 154px 150px 88px 150px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 1, 0.7)), url("../assets/handshake.jpg");
 
     background-position: center;
@@ -251,4 +279,33 @@ input {
     padding: 15px;
     border-radius: 15px;
     font-size: 16px;
+}
+
+footer {
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 32px 150px 32px 150px;
+
+}
+
+.foot_info {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
