@@ -2,7 +2,7 @@
 
 
 nav {
-    background: url("../style/../assets/Hero-bg.png");
+    background: url("./assets/Hero-bg.png");
 }
 
 .img {
@@ -159,18 +159,21 @@ nav {
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
 }
-.section3{
+
+.section3 {
     margin: 154px 296px 88px 293px;
 
 }
-.section4{
+
+.section4 {
     margin: 154px 296px 88px 293px;
-    background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,1,0.7)), url("../assets/handshake.jpg");
-    
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 1, 0.7)), url("../assets/handshake.jpg");
+
     background-position: center;
-   background-size: cover;
+    background-size: cover;
 }
-.next_target1{
+
+.next_target1 {
     display: flex;
     gap: 30px;
     padding: 40px;
@@ -178,7 +181,8 @@ nav {
     margin-top: 30px;
     border-radius: 15px;
 }
-.next_target2{
+
+.next_target2 {
     display: flex;
     gap: 30px;
     padding: 40px;
@@ -186,7 +190,8 @@ nav {
     margin-top: 30px;
     border-radius: 15px;
 }
-.next_target3{
+
+.next_target3 {
     display: flex;
     gap: 30px;
     padding: 40px;
@@ -195,47 +200,54 @@ nav {
     border-radius: 15px;
 
 }
-.search{
+
+.search {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.search_info{
-text-align: center;
-}
-.search_description{
+
+.search_info {
     text-align: center;
 }
-.section_div{
-    padding:64px;
+
+.search_description {
+    text-align: center;
 }
 
-.learn_more{
-    color:black;
+.section_div {
+    padding: 64px;
+}
+
+.learn_more {
+    color: black;
     font-size: 17px;
     font-weight: bold;
 }
 
 
-.support_info{
-text-align: center;
-font-size: 56px;
-color: white;
-margin-bottom: 40px;
+.support_info {
+    text-align: center;
+    font-size: 56px;
+    color: white;
+    margin-bottom: 40px;
 }
-.support_description{
-text-align: center;
-color: white;
-font-size: 17px;
-margin-bottom: 40px;
+
+.support_description {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 40px;
 }
-input{
+
+input {
     width: 500px;
     height: 40px;
     border-radius: 15px;
-   
+
 }
-.submit{
+
+.submit {
     padding: 15px;
     border-radius: 15px;
     font-size: 16px;
