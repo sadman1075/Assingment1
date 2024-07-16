@@ -2,7 +2,7 @@
 
 
 nav {
-    background: url("/assets/Hero-bg.png");
+    background: url("./assets/Hero-bg.png");
 }
 
 .img {
@@ -165,7 +165,7 @@ nav {
 }
 .section4{
     margin: 154px 296px 88px 293px;
-    background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,1,0.7)), url("/assets/handshake.jpg");
+    background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,1,0.7)), url("./assets/handshake.jpg");
     
     background-position: center;
    background-size: cover;
