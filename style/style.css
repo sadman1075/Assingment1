@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+nav {
+    background: url("/assets/Hero-bg.png");
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.future_info {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.future_description {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azert Mono;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.btn_class {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.btn {
+    margin-top: 52px;
+    margin-bottom: 62px;
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+
+}
+
+
+
+.development {
+    color: rgb(13, 19, 33);
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.development_description {
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+.combine {
+    margin: 60px 100px 60px 48px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn1 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    margin-top: 32px;
+}
+
+.section1 {
+    margin: 154px 296px 88px 293px;
+
+}
+
+.description {
+    color: rgb(13, 19, 33);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.info {
+    color: rgba(13, 19, 33, 0.7);
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.section2 {
+    margin: 154px 296px 88px 293px;
+
+}
+
+.target {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.target1 {
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.target2 {
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.target3 {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.section3{
+    margin: 154px 296px 88px 293px;
+
+}
+.section4{
+    margin: 154px 296px 88px 293px;
+    background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,1,0.7)), url("/assets/handshake.jpg");
+    
+    background-position: center;
+   background-size: cover;
+}
+.next_target1{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.next_target2{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.next_target3{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 15px;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.search_info{
+text-align: center;
+}
+.search_description{
+    text-align: center;
+}
+.section_div{
+    padding:64px;
+}
+
+.learn_more{
+    color:black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.support_info{
+text-align: center;
+font-size: 56px;
+color: white;
+margin-bottom: 40px;
+}
+.support_description{
+text-align: center;
+color: white;
+font-size: 17px;
+margin-bottom: 40px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+}
+.submit{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+}
